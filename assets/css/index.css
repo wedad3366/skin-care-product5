@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden !important;
+    font-family: 'Cairo', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.button {
+    background-color: #ba4c87;
+    color: white;
+}
+
+.button:hover {
+    background-color: #615172;
+    color: white;
+}
+
+body h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 2.3em;
+    color: #ba4c87;
+}
+
+body h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 2.3em;
+    color: #ba4c87;
+}
+
+
+body h4 {
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 2.3em;
+    color: #af6e4c;
+}
+
+body h5 {
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 2.3em;
+    color: #ba4c87;
+}
+
+
+body h3 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 2.3em;
+    color: #ba4c87;
+}
+
+body li {
+    font-size: 16px;
+    font-weight: bold;
+    color: #615172;
+}
+
+body p {
+    font-size: 20px;
+    font-weight: 700px;
+    color: #615172;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.form-select {
+    --bs-form-select-bg-img: none !important;
+}
+
+.mobile-view {
+    display: none;
+}
+
+.pc-view {
+    display: block;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    z-index: 3;
+}
+
+.gift {
+    background-color: white;
+    position: relative;
+}
+.dot {
+    height: 60px;
+    width: 60px;
+    background-color: #ba4c87;
+    border-radius: 50%;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+}
+body label {
+    font-size: 1.25rem !important;
+}
+body .form-check-input:checked 
+{
+    background-color: #ba4c87;
+    border-color: #ba4c87;
+}
+
+
+/*
+.scroll-down {
+    height: 40px;
+    width: 20px;
+    border: 2px solid #46846a;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 6px;
+    width: 6px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid #46846a;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::before {
+    animation-delay: 0.3s;
+   
+}
+
+@keyframes scroll-down {
+    0% {
+      
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        top: 90%;
+        opacity: 0;
+    }
+}
+*/
+
+.images-section img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.images-section-mob {
+    display: none;
+}
+
+
+.thanks-section {
+    margin-top: 10%;
+}
+
+@media only screen and (max-width:700px) {
+    .mobile-view {
+        display: block;
+        position: relative;
+    }
+    .header-content-mob {
+        position: absolute;
+        top: 95%;
+        left: 25%;
+        z-index: 3;
+    }
+
+    .pc-view {
+        display: none;
+    }
+
+    .order-form {
+        padding: 25px;
+    }
+
+    .images-section {
+        display: none;
+    }
+
+    .images-section-mob {
+        display: block;
+    }
+    .description-sec h1 {
+        font-size: 23px !important;
+        font-weight: bolder;
+        line-height: 2.3em;
+        color: white;
+    }
+
+    .description-sec h4 {
+        font-size: 16px !important;
+        font-weight: bolder;
+        line-height: 2.3em;
+        color: #615172;
+    }
+
+    .gift-sec {
+        padding: 16px;
+    }
+
+    .sec {
+        padding: 25px;
+    }
+
+    .sec1 {
+        padding: 0px 25px 0px 25px;
+    }
+
+    body p {
+        font-size: 15px !important;
+    }
+
+    body h2 {
+        font-size: 20px !important;
+    }
+
+    body h4 {
+        font-size: 18px;
+    }
+
+    .thanks-section {
+        margin-top: 15%;
+        padding: 20px;
+    }
+
+    .description-sec {
+        background-color: #ba4c87;
+    }
+
+    .des-sec {
+        padding: 25px;
+    }
+
+    body h5 {
+        font-size: 25px;
+        font-weight: bolder;
+        line-height: 2.3em;
+        color: white;
+    }
+
+    body label {
+        font-size: 1rem !important;
+    }
+    body h3 {
+        font-size: 28px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:701px) {
+    .mobile-view {
+        position: relative;
+    }
+    .header-content-mob {
+        position: absolute;
+        top: 8%;
+        left: 45%;
+        z-index: 3;
+    }
+}
